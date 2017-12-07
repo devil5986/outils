@@ -1,6 +1,6 @@
 # outils
 
-[![Build Status](https://travis-ci.org/proYang/outils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/outils) 
+[![Build Status](https://travis-ci.org/devil5986/outils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/outils) 
 
  
 前端业务代码工具库  
@@ -11,7 +11,7 @@
 
 ## 安装使用
 
-1. 直接下载`min`目录下的[outils.min.js](https://github.com/proYang/outils/blob/master/min/outils.min.js)使用，支持UMD通用模块规范  
+1. 直接下载`min`目录下的[outils.min.js](https://github.com/devil5986/outils/blob/master/min/outils.min.js)使用，支持UMD通用模块规范  
 2. 使用npm安装
 
 ### 浏览器:
@@ -92,6 +92,7 @@ const OS = getOS()
 
 ### String  
 #### &emsp;&emsp;[digitUppercase][digitUppercase]&emsp;&emsp;现金额转大写
+#### &emsp;&emsp;[pinYing][pinYing]&emsp;&emsp;拼音转首字母
 
 ### Support  
 #### &emsp;&emsp;[isSupportWebP][isSupportWebP]&emsp;&emsp;判断浏览器是否支持webP格式图片
@@ -105,47 +106,48 @@ const OS = getOS()
 #### &emsp;&emsp;[parseQueryString][parseQueryString]&emsp;&emsp;url参数转对象
 #### &emsp;&emsp;[stringfyQueryString][stringfyQueryString]&emsp;&emsp;对象序列化
 
-[arrayEqual]:https://github.com/proYang/outils/blob/master/src/array/arrayEqual.js
+[arrayEqual]:https://github.com/devil5986/outils/blob/master/src/array/arrayEqual.js
 
-[addClass]:https://github.com/proYang/outils/blob/master/src/class/addClass.js
-[hasClass]:https://github.com/proYang/outils/blob/master/src/class/hasClass.js
-[removeClass]:https://github.com/proYang/outils/blob/master/src/class/removeClass.js
+[addClass]:https://github.com/devil5986/outils/blob/master/src/class/addClass.js
+[hasClass]:https://github.com/devil5986/outils/blob/master/src/class/hasClass.js
+[removeClass]:https://github.com/devil5986/outils/blob/master/src/class/removeClass.js
 
-[getCookie]:https://github.com/proYang/outils/blob/master/src/cookie/getCookie.js
-[removeCookie]:https://github.com/proYang/outils/blob/master/src/cookie/removeCookie.js
-[setCookie]:https://github.com/proYang/outils/blob/master/src/cookie/setCookie.js
+[getCookie]:https://github.com/devil5986/outils/blob/master/src/cookie/getCookie.js
+[removeCookie]:https://github.com/devil5986/outils/blob/master/src/cookie/removeCookie.js
+[setCookie]:https://github.com/devil5986/outils/blob/master/src/cookie/setCookie.js
 
-[getExplore]:https://github.com/proYang/outils/blob/master/src/device/getExplore.js
-[getOS]:https://github.com/proYang/outils/blob/master/src/device/getOS.js
+[getExplore]:https://github.com/devil5986/outils/blob/master/src/device/getExplore.js
+[getOS]:https://github.com/devil5986/outils/blob/master/src/device/getOS.js
 
-[getScrollTop]:https://github.com/proYang/outils/blob/master/src/dom/getScrollTop.js
-[offset]:https://github.com/proYang/outils/blob/master/src/dom/offset.js
-[scrollTo]:https://github.com/proYang/outils/blob/master/src/dom/scrollTo.js
-[setScrollTop]:https://github.com/proYang/outils/blob/master/src/dom/setScrollTop.js
-[windowResize]:https://github.com/proYang/outils/blob/master/src/dom/windowResize.js
+[getScrollTop]:https://github.com/devil5986/outils/blob/master/src/dom/getScrollTop.js
+[offset]:https://github.com/devil5986/outils/blob/master/src/dom/offset.js
+[scrollTo]:https://github.com/devil5986/outils/blob/master/src/dom/scrollTo.js
+[setScrollTop]:https://github.com/devil5986/outils/blob/master/src/dom/setScrollTop.js
+[windowResize]:https://github.com/devil5986/outils/blob/master/src/dom/windowResize.js
 
-[debounce]:https://github.com/proYang/outils/blob/master/src/function/debounce.js
-[throttle]:https://github.com/proYang/outils/blob/master/src/function/throttle.js
+[debounce]:https://github.com/devil5986/outils/blob/master/src/function/debounce.js
+[throttle]:https://github.com/devil5986/outils/blob/master/src/function/throttle.js
 
-[getKeyName]:https://github.com/proYang/outils/blob/master/src/keycode/getKeyName.js
+[getKeyName]:https://github.com/devil5986/outils/blob/master/src/keycode/getKeyName.js
 
-[deepClone]:https://github.com/proYang/outils/blob/master/src/object/deepClone.js
-[isEmptyObject]:https://github.com/proYang/outils/blob/master/src/object/isEmptyObject.js
+[deepClone]:https://github.com/devil5986/outils/blob/master/src/object/deepClone.js
+[isEmptyObject]:https://github.com/devil5986/outils/blob/master/src/object/isEmptyObject.js
 
-[randomColor]:https://github.com/proYang/outils/blob/master/src/random/randomColor.js
-[randomNum]:https://github.com/proYang/outils/blob/master/src/random/randomNum.js
+[randomColor]:https://github.com/devil5986/outils/blob/master/src/random/randomColor.js
+[randomNum]:https://github.com/devil5986/outils/blob/master/src/random/randomNum.js
 
-[isEmail]:https://github.com/proYang/outils/blob/master/src/regexp/isEmail.js
-[isIdCard]:https://github.com/proYang/outils/blob/master/src/regexp/isIdCard.js
-[isPhoneNum]:https://github.com/proYang/outils/blob/master/src/regexp/isPhoneNum.js
-[isUrl]:https://github.com/proYang/outils/blob/master/src/regexp/isUrl.js
+[isEmail]:https://github.com/devil5986/outils/blob/master/src/regexp/isEmail.js
+[isIdCard]:https://github.com/devil5986/outils/blob/master/src/regexp/isIdCard.js
+[isPhoneNum]:https://github.com/devil5986/outils/blob/master/src/regexp/isPhoneNum.js
+[isUrl]:https://github.com/devil5986/outils/blob/master/src/regexp/isUrl.js
 
-[digitUppercase]:https://github.com/proYang/outils/blob/master/src/string/digitUppercase.js
+[digitUppercase]:https://github.com/devil5986/outils/blob/master/src/string/digitUppercase.js
+[pinYing]:https://github.com/devil5986/outils/blob/master/src/string/pinYing.js
 
-[isSupportWebP]:https://github.com/proYang/outils/blob/master/src/support/isSupportWebP.js
+[isSupportWebP]:https://github.com/devil5986/outils/blob/master/src/support/isSupportWebP.js
 
-[formatPassTime]:https://github.com/proYang/outils/blob/master/src/time/formatPassTime.js
-[formatRemainTime]:https://github.com/proYang/outils/blob/master/src/time/formatRemainTime.js
+[formatPassTime]:https://github.com/devil5986/outils/blob/master/src/time/formatPassTime.js
+[formatRemainTime]:https://github.com/devil5986/outils/blob/master/src/time/formatRemainTime.js
 
-[parseQueryString]:https://github.com/proYang/outils/blob/master/src/url/parseQueryString.js
-[stringfyQueryString]:https://github.com/proYang/outils/blob/master/src/url/stringfyQueryString.js
+[parseQueryString]:https://github.com/devil5986/outils/blob/master/src/url/parseQueryString.js
+[stringfyQueryString]:https://github.com/devil5986/outils/blob/master/src/url/stringfyQueryString.js
