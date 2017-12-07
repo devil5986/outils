@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/devil5986/outils.svg?branch=master) ![LICENSE MIT](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/outils) 
 
  
-前端业务代码工具库  
+前端业务代码工具库!
 
 > 目的：高效率完成前端业务代码
 
